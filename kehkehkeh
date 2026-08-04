@@ -1,0 +1,151 @@
+script_key="mBrUHzhYbYpBtpCsZcRlcwEvoUjseBcg";
+getgenv().GAG2Config = {
+    WORLD = "FallHarvest",
+    FPS_CAP = 5,  -- MUST USE 5+ FPS
+    ADD_FRIEND = false,
+    AUTO_UPDATE_RESTART = true,
+    COLLECT_FRUIT_DELAY = 20,
+
+    -- Pet Config
+    MAX_PET_EQUIP = 6,
+    BUY_PET = {  -- ["Pet Name"] = Buy Until Amount
+        ["ShadowDragon"] = 99,
+        ["Fox"] = 0,
+        ["Wolf"] = 6,
+        ["Swan"] = 0,
+        ["Turkey"] = 0,
+    },
+
+    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
+        {"Wolf", 6, 1},
+    },
+
+    -- Plant Config
+    PLANT_SEED = {  -- ["Seed Name"] = Plant Until Amount
+        ["Maple Carrot"] = 10,
+        ["Maple Strawberry"] = 0,
+        ["Maple Blueberry"] = 0,
+        ["Maple Tulip"] = 10,
+        ["Maple Tomato"] = 0,
+        ["Maple Apple"] = 0,
+        ["Maple Bamboo"] = 100,
+        ["Maple Corn"] = 0,
+        ["Maple Cactus"] = 0,
+        ["Maple Pineapple"] = 0,
+        ["Maple Mushroom"] = 200,
+        ["Maple Green Bean"] = 0,
+        ["Maple Banana"] = 0,
+        ["Maple Grape"] = 0,
+        ["Maple Coconut"] = 0,
+        ["Maple Mango"] = 0,
+        ["Maple Dragon Fruit"] = 0,
+        ["Maple Acorn"] = 0,
+        ["Maple Cherry"] = 10,
+        ["Maple Sunflower"] = 10,
+        ["Atlantic Giant Pumpkin"] = 2,
+        ["Maple Venus Fly Trap"] = 10,
+        ["Maple Pomegranate"] = 10,
+        ["Maple Poison Apple"] = 10,
+        ["Maple Venom Spitter"] = 10,
+        ["Gold"] = 10,
+        ["Rainbow"] = 10,
+    },
+
+    -- Buy Config
+    BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
+        ["Maple Carrot"] = 9999,
+        ["Maple Strawberry"] = 0,
+        ["Maple Blueberry"] = 0,
+        ["Maple Tulip"] = 9999,
+        ["Maple Tomato"] = 0,
+        ["Maple Apple"] = 0,
+        ["Maple Bamboo"] = 9999,
+        ["Maple Corn"] = 0,
+        ["Maple Cactus"] = 0,
+        ["Maple Pineapple"] = 0,
+        ["Maple Mushroom"] = 9999,
+        ["Maple Green Bean"] = 0,
+        ["Maple Banana"] = 0,
+        ["Maple Grape"] = 0,
+        ["Maple Coconut"] = 0,
+        ["Maple Mango"] = 0,
+        ["Maple Dragon Fruit"] = 0,
+        ["Maple Acorn"] = 0,
+        ["Maple Cherry"] = 1,
+        ["Maple Sunflower"] = 1,
+        ["Atlantic Giant Pumpkin"] = 9999,
+        ["Maple Venus Fly Trap"] = 1,
+        ["Maple Pomegranate"] = 1,
+        ["Maple Poison Apple"] = 1,
+        ["Maple Venom Spitter"] = 1,
+        ["Conifer Cone"] = 1,
+        ["Amber Cranberry"] = 9999,
+    },
+
+    BUY_AUCTION = {},  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
+    BUY_CRATE = {},  -- ["Crate Name"] = Buy Until Amount
+
+    BUY_GEAR_MIN_SHECKLE = 1000000,
+    BUY_GEAR = {  -- ["Gear Name"] = Buy Until Amount
+        ["Super Syrup Watering Can"] = 9999,
+        ["Super Syrup Sprinkler"] = 9999,
+        ["Syrup Sprinkler"] = 9999,
+    },
+
+    -- Sell Config
+    SELL_FRUIT_MULTIPLIER = {
+        ["Maple Mushroom"] = 2,
+        ["Atlantic Giant Pumpkin"] = 4,
+    },
+
+    SELL_ALL_DAILY_DEAL = 10000000,  -- Minimum Value to Trigger Daily "Sell All"
+    SELL_ALL_DELAY = 20,  -- Seconds
+
+    -- Consumable Config
+    USE_SPRINKLER = { "Syrup Sprinkler" },  -- "Sprinkler Name" (Only One Sprinkler Can Be Used at a Time)
+    USE_WATERING_CAN = {},  -- "Watering Can Name"
+    USE_WATERING_CAN_DELAY = 60,  -- Seconds
+
+    -- Other Config
+    COLLECT_PLANT_IF_MUTATED = {
+        "Maple Mushroom",
+        "Maple Cherry",
+        "Maple Sunflower",
+        "Atlantic Giant Pumpkin",
+        "Maple Venus Fly Trap",
+        "Maple Pomegranate",
+        "Maple Poison Apple",
+        "Maple Venom Spitter",
+    },  -- Only Collect Fruit When It Has ANY Mutation
+
+    FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} or ["Fruit Name"] = {"Gold", "Rainbow"}
+
+    FOCUS_COLLECT_DROPPED_SEED = true,
+    -- Set true for Public Servers to Collect Immediately
+    -- Set false to Collect Slightly Slower
+
+    EXPAND_PLOT = 3,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
+
+    -- Auto Mail Config
+    AUTO_MAIL = { ["acc7899"] = { ["Maple Mushroom"] = 50, ["Maple Bamboo"] = 200, ["Atlantic Giant Pumpkin"] = 2, ["Gold"] = 10, ["Rainbow"] = 5, ["Amber Cranberry"] = 1, ["Shadow Dragon"] = 1, ["Super Syrup Sprinkler"] = 5, ["Super Syrup Watering Can"] = 5 },  ["Floresstockholder3"] = { ["Maple Mushroom"] = 50, ["Maple Bamboo"] = 200, ["Atlantic Giant Pumpkin"] = 2, ["Gold"] = 10, ["Rainbow"] = 5, ["Amber Cranberry"] = 1, ["Shadow Dragon"] = 1, ["Super Syrup Sprinkler"] = 5, ["Super Syrup Watering Can"] = 5 } },  -- ["Username"] = {["Item Name"] = Amount}
+    AUTO_MAIL_DELAY = 60,  -- Seconds
+    COLLECT_MAIL = true,
+
+    -- Discord Config
+    WEBHOOK_PET_NAME = {},
+    WEBHOOK_PET_RARITY = {
+        "Mythic",
+        "Super",
+        "Secret",
+    },
+
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1238251954766086144/DewKLGAdlSN2IGLmSp5-3Oo-l2NEDleRUECU8kmcKdLFigOlQURGimfXzuQJzLgT8J0W",
+    DISCORD_ID = "",
+    WEBHOOK_NOTE = "",  -- Personal Webhook
+
+    SHOW_PUBLIC_DISCORD_ID = true,
+    SHOW_WEBHOOK_USERNAME = true,  -- Personal Webhook
+    SHOW_WEBHOOK_JOBID = true,  -- Personal Webhook
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
