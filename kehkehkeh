@@ -90,6 +90,7 @@ getgenv().GAG2Config = {
         ["Super Syrup Watering Can"] = 9999,
         ["Super Syrup Sprinkler"] = 9999,
         ["Syrup Sprinkler"] = 9999,
+        ["Trowel"] = 9999,
     },
 
     -- Sell Config
