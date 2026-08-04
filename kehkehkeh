@@ -128,7 +128,7 @@ getgenv().GAG2Config = {
     EXPAND_PLOT = 3,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
     -- Auto Mail Config
-    AUTO_MAIL = { ["acc7899"] = { ["Maple Mushroom"] = 50, ["Maple Bamboo"] = 200, ["Atlantic Giant Pumpkin"] = 2, ["Gold"] = 10, ["Rainbow"] = 5, ["Amber Cranberry"] = 1, ["Shadow Dragon"] = 1, ["Super Syrup Sprinkler"] = 5, ["Super Syrup Watering Can"] = 5 },  ["Floresstockholder3"] = { ["Maple Mushroom"] = 50, ["Maple Bamboo"] = 200, ["Atlantic Giant Pumpkin"] = 2, ["Gold"] = 10, ["Rainbow"] = 5, ["Amber Cranberry"] = 1, ["Shadow Dragon"] = 1, ["Super Syrup Sprinkler"] = 5, ["Super Syrup Watering Can"] = 5 } },  -- ["Username"] = {["Item Name"] = Amount}
+    AUTO_MAIL = { ["acc7899"] = { ["Maple Mushroom"] = 50, ["Maple Bamboo"] = 200, ["Atlantic Giant Pumpkin"] = 2, ["Gold"] = 10, ["Rainbow"] = 5, ["Amber Cranberry"] = 1, ["Shadow Dragon"] = 1, ["Super Syrup Sprinkler"] = 5, ["Super Syrup Watering Can"] = 5 },  ["Floresstockholder3"] = { ["Maple Mushroom"] = 50, ["Maple Bamboo"] = 200, ["Atlantic Giant Pumpkin"] = 2, ["Gold"] = 10, ["Rainbow"] = 5, ["Amber Cranberry"] = 1, ["Shadow Dragon"] = 1, ["Super Syrup Sprinkler"] = 5, ["Super Syrup Watering Can"] = 5 }, ["nalt09"] = { ["Trowel"] = 10 } },  -- ["Username"] = {["Item Name"] = Amount}
     AUTO_MAIL_DELAY = 60,  -- Seconds
     COLLECT_MAIL = true,
 
