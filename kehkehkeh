@@ -96,7 +96,7 @@ getgenv().GAG2Config = {
     -- Sell Config
     SELL_FRUIT_MULTIPLIER = {
         ["Maple Mushroom"] = 2,
-        ["Atlantic Giant Pumpkin"] = 4,
+        ["Atlantic Giant Pumpkin"] = 2,
     },
 
     SELL_ALL_DAILY_DEAL = 10000000,  -- Minimum Value to Trigger Daily "Sell All"
@@ -112,7 +112,6 @@ getgenv().GAG2Config = {
         "Maple Mushroom",
         "Maple Cherry",
         "Maple Sunflower",
-        "Atlantic Giant Pumpkin",
         "Maple Venus Fly Trap",
         "Maple Pomegranate",
         "Maple Poison Apple",
