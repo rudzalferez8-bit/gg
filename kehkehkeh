@@ -53,17 +53,17 @@ getgenv().GAG2Config = {
 
     -- Buy Config
     BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
-        ["Maple Carrot"] = 9999,
+        ["Maple Carrot"] = 999999,
         ["Maple Strawberry"] = 0,
         ["Maple Blueberry"] = 0,
-        ["Maple Tulip"] = 9999,
+        ["Maple Tulip"] = 999999,
         ["Maple Tomato"] = 0,
         ["Maple Apple"] = 0,
-        ["Maple Bamboo"] = 9999,
+        ["Maple Bamboo"] = 999999,
         ["Maple Corn"] = 0,
         ["Maple Cactus"] = 0,
         ["Maple Pineapple"] = 0,
-        ["Maple Mushroom"] = 9999,
+        ["Maple Mushroom"] = 999999,
         ["Maple Green Bean"] = 0,
         ["Maple Banana"] = 0,
         ["Maple Grape"] = 0,
